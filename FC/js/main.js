@@ -114,7 +114,7 @@ document.addEventListener('DOMContentLoaded', function() {
 const contactForm = document.getElementById('contact-form');
 if (contactForm) {
     // Initialize EmailJS
-    emailjs.init("FC"); // ⚠️ replace with your EmailJS Public Key
+    emailjs.init("FFjGZ1w4LX1wpq7JI"); // ⚠️ replace with your EmailJS Public Key
 
     contactForm.addEventListener('submit', function(e) {
         e.preventDefault();
@@ -125,7 +125,7 @@ if (contactForm) {
         submitBtn.disabled = true;
         submitBtn.textContent = 'Sending...';
 
-        emailjs.sendForm("service_lhggpxk", "--", contactForm)
+        emailjs.sendForm("service_lhggpxk", "template_abhj6dg", contactForm)
         .then(function() {
             // Success
             contactForm.reset();
