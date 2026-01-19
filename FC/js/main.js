@@ -110,41 +110,50 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-    // Contact form submission
-    const contactForm = document.getElementById('contact-form');
-    if (contactForm) {
-        contactForm.addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            // Simulate form submission
-            const submitBtn = this.querySelector('button[type="submit"]');
-            const originalText = submitBtn.textContent;
-            
-            submitBtn.disabled = true;
-            submitBtn.textContent = 'Sending...';
-            
-            setTimeout(() => {
-                // Reset form
-                contactForm.reset();
-                
-                // Show success message
-                const successMessage = document.createElement('div');
-                successMessage.className = 'alert alert-success';
-                successMessage.textContent = 'Your message has been sent successfully!';
-                
-                contactForm.prepend(successMessage);
-                
-                // Reset button
-                submitBtn.disabled = false;
-                submitBtn.textContent = originalText;
-                
-                // Remove success message after 5 seconds
-                setTimeout(() => {
-                    successMessage.remove();
-                }, 5000);
-            }, 1500);
+   // Contact form submission
+const contactForm = document.getElementById('contact-form');
+if (contactForm) {
+    // Initialize EmailJS
+    emailjs.init("FC"); // ⚠️ replace with your EmailJS Public Key
+
+    contactForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+
+        const submitBtn = this.querySelector('button[type="submit"]');
+        const originalText = submitBtn.textContent;
+
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Sending...';
+
+        emailjs.sendForm("service_lhggpxk", "--", contactForm)
+        .then(function() {
+            // Success
+            contactForm.reset();
+
+            const successMessage = document.createElement('div');
+            successMessage.className = 'alert alert-success';
+            successMessage.textContent = '✅ Your message has been sent successfully!';
+
+            contactForm.prepend(successMessage);
+            submitBtn.disabled = false;
+            submitBtn.textContent = originalText;
+
+            setTimeout(() => successMessage.remove(), 5000);
+        }, function(error) {
+            // Failure
+            const errorMessage = document.createElement('div');
+            errorMessage.className = 'alert alert-danger';
+            errorMessage.textContent = '❌ Error sending message: ' + error.text;
+
+            contactForm.prepend(errorMessage);
+            submitBtn.disabled = false;
+            submitBtn.textContent = originalText;
+
+            setTimeout(() => errorMessage.remove(), 5000);
         });
-    }
+    });
+}
+
     
     // Add particle background effect
     const createParticles = function() {
