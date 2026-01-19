@@ -1,0 +1,4 @@
+.cathedral-slider .image-compare-after {
+  top: 37px; /* Moved 1px more up from previous 38px value */
+  transform: rotate(-3deg); /* Rotate 3 degrees counterclockwise (1 degree more) */
+}
