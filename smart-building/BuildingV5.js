@@ -2303,7 +2303,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Calque_1
-	this.text = new cjs.Text("Des capteurs\nde dÃ©tection\nde place libres", "14px 'Arial'", "#FFFFFF");
+	this.text = new cjs.Text("Des capteurs\nde detection\nde place libres", "14px 'Arial'", "#FFFFFF");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 16;
 	this.text.lineWidth = 111;
@@ -2427,7 +2427,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Calque_1
-	this.text = new cjs.Text("Le BOS, le serveur\ndu bÃ¢timent pour assurer\nles services et la\ncybersÃ©curitÃ© des solutions", "14px 'Arial'", "#FFFFFF");
+	this.text = new cjs.Text("Le BOS, le serveur\ndu batiment pour assurer\nles services et la\ncybersecurite des solutions", "14px 'Arial'", "#FFFFFF");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 16;
 	this.text.lineWidth = 192;
@@ -2458,7 +2458,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Calque_1
-	this.text = new cjs.Text("La gestion technique de bÃ¢timent (GTB), un systÃ¨me informatique\npour superviser et contrÃ´ler\nles services", "14px 'Arial'", "#FFFFFF");
+	this.text = new cjs.Text("La gestion technique de batiment (GTB), un systeme informatique\npour superviser et controler\nles services", "14px 'Arial'", "#FFFFFF");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 16;
 	this.text.lineWidth = 241;
@@ -2489,7 +2489,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Calque_1
-	this.text = new cjs.Text("Des bornes de recharge\nde vÃ©hicules Ã©lectriques", "14px 'Arial'", "#FFFFFF");
+	this.text = new cjs.Text("Des bornes de recharge\nde vehicules electriques", "14px 'Arial'", "#FFFFFF");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 16;
 	this.text.lineWidth = 178;
@@ -2520,7 +2520,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Calque_1
-	this.text = new cjs.Text("Chaufferie /\nproduction de froid : pompe Ã  chaleur, groupe froid, etc...", "14px 'Arial'", "#FFFFFF");
+	this.text = new cjs.Text("Chaufferie /\nproduction de froid : pompe A  chaleur, groupe froid, etc...", "14px 'Arial'", "#FFFFFF");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 16;
 	this.text.lineWidth = 152;
@@ -2551,7 +2551,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Calque_1
-	this.text = new cjs.Text("Des compteurs communicants\n(eau, gaz, Ã©lectricitÃ©)", "14px 'Arial'", "#FFFFFF");
+	this.text = new cjs.Text("Des compteurs communicants\n(eau, gaz, electricite)", "14px 'Arial'", "#FFFFFF");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 16;
 	this.text.lineWidth = 158;
@@ -2582,7 +2582,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Calque_1
-	this.text = new cjs.Text("BoÃ®te aux\nlettres\nconnectÃ©e", "14px 'Arial'", "#FFFFFF");
+	this.text = new cjs.Text("Boite aux\nlettres\nconnectee", "14px 'Arial'", "#FFFFFF");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 16;
 	this.text.lineWidth = 72;
@@ -2644,7 +2644,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Calque_1
-	this.text = new cjs.Text("Un dÃ©fibrillateur connectÃ©", "14px 'Arial'", "#FFFFFF");
+	this.text = new cjs.Text("Un defibrillateur connecte", "14px 'Arial'", "#FFFFFF");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 16;
 	this.text.lineWidth = 107;
@@ -2675,7 +2675,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Calque_1
-	this.text = new cjs.Text("Une dÃ©tecteur dâ€™ouverture de porte", "14px 'Arial'", "#FFFFFF");
+	this.text = new cjs.Text("Une detecteur dâ€™ouverture de porte", "14px 'Arial'", "#FFFFFF");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 16;
 	this.text.lineWidth = 128;
@@ -2705,7 +2705,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Calque_1
-	this.text = new cjs.Text("DÃ©tecteur\nde fumÃ©e", "14px 'Arial'", "#FFFFFF");
+	this.text = new cjs.Text("Detecteur\nde fumee", "14px 'Arial'", "#FFFFFF");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 16;
 	this.text.lineWidth = 107;
@@ -2736,7 +2736,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Calque_1
-	this.text = new cjs.Text("Un ascenseur connectÃ©", "14px 'Arial'", "#FFFFFF");
+	this.text = new cjs.Text("Un ascenseur connecte", "14px 'Arial'", "#FFFFFF");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 16;
 	this.text.lineWidth = 107;
@@ -2767,7 +2767,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Calque_1
-	this.text = new cjs.Text(" Volets\net fenÃªtres\nouvrants", "14px 'Arial'", "#FFFFFF");
+	this.text = new cjs.Text(" Volets\net fenetres\nouvrants", "14px 'Arial'", "#FFFFFF");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 16;
 	this.text.lineWidth = 104;
@@ -2798,7 +2798,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Calque_1
-	this.text = new cjs.Text("Capteur de prÃ©sence sous les fauteuils", "14px 'Arial'", "#FFFFFF");
+	this.text = new cjs.Text("Capteur de presence sous les fauteuils", "14px 'Arial'", "#FFFFFF");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 16;
 	this.text.lineWidth = 107;
@@ -2829,7 +2829,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Calque_1
-	this.text = new cjs.Text("Capteur\nde tempÃ©rature / d'humiditÃ©", "14px 'Arial'", "#FFFFFF");
+	this.text = new cjs.Text("Capteur\nde temperature / d'humidite", "14px 'Arial'", "#FFFFFF");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 16;
 	this.text.lineWidth = 126;
@@ -2860,7 +2860,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Calque_1
-	this.text = new cjs.Text("Capteur\nde la qualitÃ©\nde l'air", "14px 'Arial'", "#FFFFFF");
+	this.text = new cjs.Text("Capteur\nde la qualite\nde l'air", "14px 'Arial'", "#FFFFFF");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 16;
 	this.text.lineWidth = 92;
@@ -2891,7 +2891,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Calque_1
-	this.text = new cjs.Text("CamÃ©ra de surveillance connectÃ©e", "14px 'Arial'", "#FFFFFF");
+	this.text = new cjs.Text("Camera de surveillance connectee", "14px 'Arial'", "#FFFFFF");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 16;
 	this.text.lineWidth = 126;
@@ -2922,7 +2922,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Calque_1
-	this.text = new cjs.Text("Capteur\nde luminositÃ© / Ã©clairage connectÃ©", "14px 'Arial'", "#FFFFFF");
+	this.text = new cjs.Text("Capteur\nde luminosite / eclairage connecte", "14px 'Arial'", "#FFFFFF");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 16;
 	this.text.lineWidth = 126;
@@ -2983,7 +2983,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Calque_1
-	this.text = new cjs.Text("Panneaux solaires reliÃ©s Ã  un Ã©lÃ©ment de stockage", "14px 'Arial'", "#FFFFFF");
+	this.text = new cjs.Text("Panneaux solaires relies A  un element de stockage", "14px 'Arial'", "#FFFFFF");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 16;
 	this.text.lineWidth = 123;
@@ -4116,7 +4116,7 @@ if (reversed == null) { reversed = false; }
 	this.shape_39.graphics.f("#6E7B7C").s().p("Aq0G/QgUgUAAgdIgBsZQgBgcAUgUQAUgUAcAAIULgCQAcAAAUAUQAUAUAAAcIACMZQAAAcgUAVQgUATgcAAI0LACQgcAAgUgTg");
 	this.shape_39.setTransform(63.5375,-0.396,0.825,0.825);
 
-	this.text = new cjs.Text("Version numÃ©rique\ndes installations", "12px 'Arial'", "#FFFFFF");
+	this.text = new cjs.Text("Version numerique\ndes installations", "12px 'Arial'", "#FFFFFF");
 	this.text.textAlign = "center";
 	this.text.lineHeight = 13;
 	this.text.lineWidth = 107;
@@ -4200,7 +4200,7 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(-21.2,-21.3,42.8,42.8);
 
 
-(lib._19lagestiontechniquedebÃ¢timentGTBunsystÃ¨meinformatiquepour = function(mode,startPosition,loop,reversed) {
+(lib._19lagestiontechniquedebatimentGTBunsystemeinformatiquepour = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -4228,7 +4228,7 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(-290.1,-106.4,311.70000000000005,127.9);
 
 
-(lib._18leBOSleserveurdubÃ¢timentpourassurerlesservicesetla = function(mode,startPosition,loop,reversed) {
+(lib._18leBOSleserveurdubatimentpourassurerlesservicesetla = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -4255,7 +4255,7 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(-255.3,-76.3,276.90000000000003,97.8);
 
 
-(lib._17desbornesderechargedevÃ©hiculeÃ©lectriques = function(mode,startPosition,loop,reversed) {
+(lib._17desbornesderechargedevehiculeelectriques = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -4282,7 +4282,7 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(-209.5,-75.9,231.1,97.4);
 
 
-(lib._16unparkingavecdescapteursdedÃ©tectiondeplacelibres = function(mode,startPosition,loop,reversed) {
+(lib._16unparkingavecdescapteursdedetectiondeplacelibres = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -4336,7 +4336,7 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(-21.2,-26.4,219.6,98.5);
 
 
-(lib._14descompteurscommunicantseaugazÃ©lectricitÃ© = function(mode,startPosition,loop,reversed) {
+(lib._14descompteurscommunicantseaugazelectricite = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -4363,7 +4363,7 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(-21.2,-51.9,219.79999999999998,91.69999999999999);
 
 
-(lib._13Ã©tecteurdouverturedeporte = function(mode,startPosition,loop,reversed) {
+(lib._13etecteurdouverturedeporte = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -4417,7 +4417,7 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(-112.6,-21.3,134.2,116.1);
 
 
-(lib._13boÃ®tesauxlettreconnectÃ©es = function(mode,startPosition,loop,reversed) {
+(lib._13boitesauxlettreconnectees = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -4444,7 +4444,7 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(-47.6,-98.9,95.4,120.4);
 
 
-(lib._12dÃ©tecteurdouverturedeporte = function(mode,startPosition,loop,reversed) {
+(lib._12detecteurdouverturedeporte = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -4471,7 +4471,7 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(-92.5,-68.4,173.5,89.9);
 
 
-(lib._11dÃ©tecteurdefumÃ©e = function(mode,startPosition,loop,reversed) {
+(lib._11detecteurdefumee = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -4498,7 +4498,7 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(-137.6,-28.4,159.2,56.5);
 
 
-(lib._10ascenseurconnectÃ© = function(mode,startPosition,loop,reversed) {
+(lib._10ascenseurconnecte = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -4652,7 +4652,7 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(-54.3,-141.9,200.5,177.4);
 
 
-(lib._09VoletsetfenÃªtresouvrantes = function(mode,startPosition,loop,reversed) {
+(lib._09Voletsetfenetresouvrantes = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -4679,7 +4679,7 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(-21.2,-42.3,163.6,77.5);
 
 
-(lib._08capteurdeprÃ©sencesouslesfauteuils = function(mode,startPosition,loop,reversed) {
+(lib._08capteurdepresencesouslesfauteuils = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -4706,7 +4706,7 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(-61.8,-94.9,139,116.4);
 
 
-(lib._07capteurdetempÃ©raturedhumiditÃ© = function(mode,startPosition,loop,reversed) {
+(lib._07capteurdetemperaturedhumidite = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -4733,7 +4733,7 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(-168.3,-38.8,189.9,72.1);
 
 
-(lib._06camÃ©radesurveillanceconnectÃ©e = function(mode,startPosition,loop,reversed) {
+(lib._06cameradesurveillanceconnectee = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -4760,7 +4760,7 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(-155.7,-34.2,177.29999999999998,74.9);
 
 
-(lib._05capteurdeluminositÃ©Ã©clairageconnectÃ© = function(mode,startPosition,loop,reversed) {
+(lib._05capteurdeluminositeeclairageconnecte = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -4799,7 +4799,7 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(-79,-56.8,266,134.3);
 
 
-(lib._04capteurdequalitÃ©delair = function(mode,startPosition,loop,reversed) {
+(lib._04capteurdequalitedelair = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -8871,7 +8871,7 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Calque_10
-	this.instance = new lib._16unparkingavecdescapteursdedÃ©tectiondeplacelibres();
+	this.instance = new lib._16unparkingavecdescapteursdedetectiondeplacelibres();
 	this.instance.setTransform(255.7,1070.3);
 	new cjs.ButtonHelper(this.instance, 0, 1, 1);
 
@@ -8879,11 +8879,11 @@ if (reversed == null) { reversed = false; }
 	this.instance_1.setTransform(100.6,974.55);
 	new cjs.ButtonHelper(this.instance_1, 0, 1, 1);
 
-	this.instance_2 = new lib._14descompteurscommunicantseaugazÃ©lectricitÃ©();
+	this.instance_2 = new lib._14descompteurscommunicantseaugazelectricite();
 	this.instance_2.setTransform(125.8,926.4);
 	new cjs.ButtonHelper(this.instance_2, 0, 1, 1);
 
-	this.instance_3 = new lib._13boÃ®tesauxlettreconnectÃ©es();
+	this.instance_3 = new lib._13boitesauxlettreconnectees();
 	this.instance_3.setTransform(529.7,787);
 	new cjs.ButtonHelper(this.instance_3, 0, 1, 1);
 
@@ -8891,7 +8891,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_4.setTransform(433.6,693.35);
 	new cjs.ButtonHelper(this.instance_4, 0, 1, 1);
 
-	this.instance_5 = new lib._13Ã©tecteurdouverturedeporte();
+	this.instance_5 = new lib._13etecteurdouverturedeporte();
 	this.instance_5.setTransform(293.05,716.05);
 	new cjs.ButtonHelper(this.instance_5, 0, 1, 1);
 
@@ -8907,31 +8907,31 @@ if (reversed == null) { reversed = false; }
 	this.shape_2.graphics.f("#333333").s().p("AgRAxQgHgIAAgKIAAg9QAAgKAHgIQAIgHAJAAQALAAAHAHQAHAIAAAKIAAA9QAAAKgHAIQgHAHgLAAQgJAAgIgHg");
 	this.shape_2.setTransform(184.3,697.825);
 
-	this.instance_6 = new lib._12dÃ©tecteurdouverturedeporte();
+	this.instance_6 = new lib._12detecteurdouverturedeporte();
 	this.instance_6.setTransform(196.45,710.35);
 	new cjs.ButtonHelper(this.instance_6, 0, 1, 1);
 
-	this.instance_7 = new lib._11dÃ©tecteurdefumÃ©e();
+	this.instance_7 = new lib._11detecteurdefumee();
 	this.instance_7.setTransform(536.5,515.45);
 	new cjs.ButtonHelper(this.instance_7, 0, 1, 1);
 
-	this.instance_8 = new lib._10ascenseurconnectÃ©();
+	this.instance_8 = new lib._10ascenseurconnecte();
 	this.instance_8.setTransform(101.8,582.85);
 	new cjs.ButtonHelper(this.instance_8, 0, 1, 1);
 
-	this.instance_9 = new lib._09VoletsetfenÃªtresouvrantes();
+	this.instance_9 = new lib._09Voletsetfenetresouvrantes();
 	this.instance_9.setTransform(232,493.55);
 	new cjs.ButtonHelper(this.instance_9, 0, 1, 1);
 
-	this.instance_10 = new lib._08capteurdeprÃ©sencesouslesfauteuils();
+	this.instance_10 = new lib._08capteurdepresencesouslesfauteuils();
 	this.instance_10.setTransform(348.65,404.25);
 	new cjs.ButtonHelper(this.instance_10, 0, 1, 1);
 
-	this.instance_11 = new lib._07capteurdetempÃ©raturedhumiditÃ©();
+	this.instance_11 = new lib._07capteurdetemperaturedhumidite();
 	this.instance_11.setTransform(549.4,365);
 	new cjs.ButtonHelper(this.instance_11, 0, 1, 1);
 
-	this.instance_12 = new lib._06camÃ©radesurveillanceconnectÃ©e();
+	this.instance_12 = new lib._06cameradesurveillanceconnectee();
 	this.instance_12.setTransform(536.5,254.35);
 	new cjs.ButtonHelper(this.instance_12, 0, 1, 1);
 
@@ -9309,15 +9309,15 @@ if (reversed == null) { reversed = false; }
 	this.shape_1.graphics.f("#2D2D2D").s().p("Ag3AWIAAgrIBvAAIAAArg");
 	this.shape_1.setTransform(314.275,169.4);
 
-	this.instance = new lib._18leBOSleserveurdubÃ¢timentpourassurerlesservicesetla();
+	this.instance = new lib._18leBOSleserveurdubatimentpourassurerlesservicesetla();
 	this.instance.setTransform(528.95,937.85);
 	new cjs.ButtonHelper(this.instance, 0, 1, 1);
 
-	this.instance_1 = new lib._17desbornesderechargedevÃ©hiculeÃ©lectriques();
+	this.instance_1 = new lib._17desbornesderechargedevehiculeelectriques();
 	this.instance_1.setTransform(408.5,992.55);
 	new cjs.ButtonHelper(this.instance_1, 0, 1, 1);
 
-	this.instance_2 = new lib._19lagestiontechniquedebÃ¢timentGTBunsystÃ¨meinformatiquepour();
+	this.instance_2 = new lib._19lagestiontechniquedebatimentGTBunsystemeinformatiquepour();
 	this.instance_2.setTransform(464.25,973.85);
 	new cjs.ButtonHelper(this.instance_2, 0, 1, 1);
 
@@ -10122,11 +10122,11 @@ if (reversed == null) { reversed = false; }
 	this.instance.setTransform(130.8,293.55);
 	new cjs.ButtonHelper(this.instance, 0, 1, 1);
 
-	this.instance_1 = new lib._05capteurdeluminositÃ©Ã©clairageconnectÃ©();
+	this.instance_1 = new lib._05capteurdeluminositeeclairageconnecte();
 	this.instance_1.setTransform(293.05,244.05);
 	new cjs.ButtonHelper(this.instance_1, 0, 1, 1);
 
-	this.instance_2 = new lib._04capteurdequalitÃ©delair();
+	this.instance_2 = new lib._04capteurdequalitedelair();
 	this.instance_2.setTransform(238.75,321.15);
 	new cjs.ButtonHelper(this.instance_2, 0, 1, 1);
 
@@ -10767,6 +10767,7 @@ an.handleSoundStreamOnTick = function(event) {
 })(createjs = createjs||{}, AdobeAn = AdobeAn||{});
 
 var createjs, AdobeAn;
+
 
 
 
