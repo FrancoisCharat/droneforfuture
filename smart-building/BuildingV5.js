@@ -233,7 +233,7 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(-72,-46.8,144,93.69999999999999);
 
 
-(lib.SÃ©quence_1_OBJECTS = function(mode,startPosition,loop,reversed) {
+(lib.Sequence_1_OBJECTS = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -409,10 +409,10 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.SÃ©quence_1_OBJECTS, null, null);
+}).prototype = getMCSymbolPrototype(lib.Sequence_1_OBJECTS, null, null);
 
 
-(lib.SÃ©quence_1_Calque_8 = function(mode,startPosition,loop,reversed) {
+(lib.Sequence_1_Calque_8 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -480,10 +480,10 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.SÃ©quence_1_Calque_8, null, null);
+}).prototype = getMCSymbolPrototype(lib.Sequence_1_Calque_8, null, null);
 
 
-(lib.SÃ©quence_1_Calque_5 = function(mode,startPosition,loop,reversed) {
+(lib.Sequence_1_Calque_5 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -547,10 +547,10 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.SÃ©quence_1_Calque_5, null, null);
+}).prototype = getMCSymbolPrototype(lib.Sequence_1_Calque_5, null, null);
 
 
-(lib.SÃ©quence_1_BACKGROUND = function(mode,startPosition,loop,reversed) {
+(lib.Sequence_1_BACKGROUND = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -1414,7 +1414,7 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.SÃ©quence_1_BACKGROUND, null, null);
+}).prototype = getMCSymbolPrototype(lib.Sequence_1_BACKGROUND, null, null);
 
 
 (lib.Symbole4 = function(mode,startPosition,loop,reversed) {
@@ -4880,7 +4880,7 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(-21.2,-48.4,150.5,89.4);
 
 
-(lib.SÃ©quence_1_DESIGNED_BY_FREEPIK = function(mode,startPosition,loop,reversed) {
+(lib.Sequence_1_DESIGNED_BY_FREEPIK = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -8856,10 +8856,10 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.SÃ©quence_1_DESIGNED_BY_FREEPIK, null, null);
+}).prototype = getMCSymbolPrototype(lib.Sequence_1_DESIGNED_BY_FREEPIK, null, null);
 
 
-(lib.SÃ©quence_1_Calque_10 = function(mode,startPosition,loop,reversed) {
+(lib.Sequence_1_Calque_10 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -9286,10 +9286,10 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.SÃ©quence_1_Calque_10, null, null);
+}).prototype = getMCSymbolPrototype(lib.Sequence_1_Calque_10, null, null);
 
 
-(lib.SÃ©quence_1_Calque_6 = function(mode,startPosition,loop,reversed) {
+(lib.Sequence_1_Calque_6 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -10045,7 +10045,7 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.SÃ©quence_1_Calque_6, null, null);
+}).prototype = getMCSymbolPrototype(lib.Sequence_1_Calque_6, null, null);
 
 
 (lib.mc26 = function(mode,startPosition,loop,reversed) {
@@ -10106,7 +10106,7 @@ if (reversed == null) { reversed = false; }
 p.nominalBounds = new cjs.Rectangle(-21.2,-48,298,87.4);
 
 
-(lib.SÃ©quence_1_Calque_12 = function(mode,startPosition,loop,reversed) {
+(lib.Sequence_1_Calque_12 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
 	var props = new Object();
@@ -10137,7 +10137,7 @@ if (reversed == null) { reversed = false; }
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.SÃ©quence_1_Calque_12, null, null);
+}).prototype = getMCSymbolPrototype(lib.Sequence_1_Calque_12, null, null);
 
 
 // stage content:
@@ -10207,7 +10207,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.___camera___instance).wait(1));
 
 	// Calque_12_obj_
-	this.Calque_12 = new lib.SÃ©quence_1_Calque_12();
+	this.Calque_12 = new lib.Sequence_1_Calque_12();
 	this.Calque_12.name = "Calque_12";
 	this.Calque_12.setTransform(291.9,270.3,1,1,0,0,0,281.9,252);
 	this.Calque_12.depth = 0;
@@ -10220,7 +10220,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.Calque_12).wait(1));
 
 	// Calque_10_obj_
-	this.Calque_10 = new lib.SÃ©quence_1_Calque_10();
+	this.Calque_10 = new lib.Sequence_1_Calque_10();
 	this.Calque_10.name = "Calque_10";
 	this.Calque_10.setTransform(321.3,558,1,1,0,0,0,311.3,539.7);
 	this.Calque_10.depth = 0;
@@ -10233,7 +10233,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.Calque_10).wait(1));
 
 	// Calque_6_obj_
-	this.Calque_6 = new lib.SÃ©quence_1_Calque_6();
+	this.Calque_6 = new lib.Sequence_1_Calque_6();
 	this.Calque_6.name = "Calque_6";
 	this.Calque_6.setTransform(299.5,577.8,1,1,0,0,0,289.5,559.5);
 	this.Calque_6.depth = 0;
@@ -10246,7 +10246,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.Calque_6).wait(1));
 
 	// DESIGNED_BY_FREEPIK_obj_
-	this.DESIGNED_BY_FREEPIK = new lib.SÃ©quence_1_DESIGNED_BY_FREEPIK();
+	this.DESIGNED_BY_FREEPIK = new lib.Sequence_1_DESIGNED_BY_FREEPIK();
 	this.DESIGNED_BY_FREEPIK.name = "DESIGNED_BY_FREEPIK";
 	this.DESIGNED_BY_FREEPIK.setTransform(301.4,640.2,1,1,0,0,0,291.4,621.9);
 	this.DESIGNED_BY_FREEPIK.depth = 0;
@@ -10259,7 +10259,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.DESIGNED_BY_FREEPIK).wait(1));
 
 	// Calque_5_obj_
-	this.Calque_5 = new lib.SÃ©quence_1_Calque_5();
+	this.Calque_5 = new lib.Sequence_1_Calque_5();
 	this.Calque_5.name = "Calque_5";
 	this.Calque_5.setTransform(229.7,520.4,1,1,0,0,0,219.7,502.1);
 	this.Calque_5.depth = 0;
@@ -10272,7 +10272,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.Calque_5).wait(1));
 
 	// OBJECTS_obj_
-	this.OBJECTS = new lib.SÃ©quence_1_OBJECTS();
+	this.OBJECTS = new lib.Sequence_1_OBJECTS();
 	this.OBJECTS.name = "OBJECTS";
 	this.OBJECTS.setTransform(301.2,49.7,1,1,0,0,0,291.2,31.4);
 	this.OBJECTS.depth = 0;
@@ -10285,7 +10285,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.OBJECTS).wait(1));
 
 	// Calque_8_obj_
-	this.Calque_8 = new lib.SÃ©quence_1_Calque_8();
+	this.Calque_8 = new lib.Sequence_1_Calque_8();
 	this.Calque_8.name = "Calque_8";
 	this.Calque_8.setTransform(350.4,981.5,1,1,0,0,0,340.4,963.2);
 	this.Calque_8.depth = 0;
@@ -10298,7 +10298,7 @@ if (reversed == null) { reversed = false; }
 	this.timeline.addTween(cjs.Tween.get(this.Calque_8).wait(1));
 
 	// BACKGROUND_obj_
-	this.BACKGROUND = new lib.SÃ©quence_1_BACKGROUND();
+	this.BACKGROUND = new lib.Sequence_1_BACKGROUND();
 	this.BACKGROUND.name = "BACKGROUND";
 	this.BACKGROUND.setTransform(308.6,580.1,1,1,0,0,0,298.6,561.8);
 	this.BACKGROUND.depth = 0;
@@ -10765,4 +10765,5 @@ an.handleSoundStreamOnTick = function(event) {
 
 
 })(createjs = createjs||{}, AdobeAn = AdobeAn||{});
+
 var createjs, AdobeAn;
