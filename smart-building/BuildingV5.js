@@ -8950,11 +8950,11 @@ if (reversed == null) { reversed = false; }
 	this.shape_3.graphics.f("#FFFFFF").s().p("AAJBaIggg0IgkAbQgDADgEgCQgEgCAAgEIAAiRQAAgEAEgCQADgCAEACIB+BTQAEADgBADQAAAEgFABIgpAMIAfAwIABAGQgBACgDACIghATIgEABQgDAAgDgDg");
 	this.shape_3.setTransform(519.21,68.3875);
 
-	
+/*	
 	this.shape_4 = new cjs.Shape();
 	this.shape_4.graphics.f("#FFFFFF").s().p("AgEAnIAAhFIgUAAIAAgIIAyAAIAAAIIgVAAIAABFg");
 	this.shape_4.setTransform(581.25,90.55);
-
+*/
 	this.shape_5 = new cjs.Shape();
 	this.shape_5.graphics.f("#FFFFFF").s().p("AgPAXQgGgHgBgNIAAgFQABgNAGgHQAGgHAJAAQAKAAAGAHQAHAHgBAMIAAAFQABAOgHAGQgFAIgLAAQgJAAgGgHgAgIgQQgEAGAAAIIAAAEQAAAKAEAFQADAFAFAAQANAAAAgSIAAgGQAAgIgDgGQgEgFgGAAQgFAAgDAFg");
 	this.shape_5.setTransform(575.65,91.55);
@@ -10779,6 +10779,7 @@ an.handleSoundStreamOnTick = function(event) {
 })(createjs = createjs||{}, AdobeAn = AdobeAn||{});
 
 var createjs, AdobeAn;
+
 
 
 
