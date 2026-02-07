@@ -232,7 +232,8 @@ if (reversed == null) { reversed = false; }
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-72,-46.8,144,93.69999999999999);
 
-
+///////////////////////////////////////////////////////////////// FERAS
+	/*
 (lib.Sequence_1_OBJECTS = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -411,8 +412,8 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = getMCSymbolPrototype(lib.Sequence_1_OBJECTS, null, null);
-
-
+*/
+//////////////////////////////////////////////////////////////////////////////////FERAS
 (lib.Sequence_1_Calque_8 = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
 if (reversed == null) { reversed = false; }
@@ -10272,7 +10273,10 @@ if (reversed == null) { reversed = false; }
 
 	this.timeline.addTween(cjs.Tween.get(this.Calque_5).wait(1));
 
-	// OBJECTS_obj_
+	
+	/////////////////////////////////////////////////////////FERAS
+	/*
+	/// OBJECTS_obj_
 	this.OBJECTS = new lib.Sequence_1_OBJECTS();
 	this.OBJECTS.name = "OBJECTS";
 	this.OBJECTS.setTransform(301.2,49.7,1,1,0,0,0,291.2,31.4);
@@ -10284,7 +10288,8 @@ if (reversed == null) { reversed = false; }
 	this.OBJECTS.maskLayerName = 0
 
 	this.timeline.addTween(cjs.Tween.get(this.OBJECTS).wait(1));
-
+	*/
+//////////////////////////////////////////////////////////////////////FERAS
 	// Calque_8_obj_
 	this.Calque_8 = new lib.Sequence_1_Calque_8();
 	this.Calque_8.name = "Calque_8";
@@ -10768,6 +10773,7 @@ an.handleSoundStreamOnTick = function(event) {
 })(createjs = createjs||{}, AdobeAn = AdobeAn||{});
 
 var createjs, AdobeAn;
+
 
 
 
