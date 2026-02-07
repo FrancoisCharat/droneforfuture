@@ -333,7 +333,7 @@ if (reversed == null) { reversed = false; }
 	this.shape_21.graphics.f("#FFCE00").s().p("AgeBTQgOgGgJgMQgJgMAAgQIAQAAQAAASANALQANALAWAAQAVAAANgJQALgJAAgPQAAgOgKgJQgLgJgagHQgbgGgLgKQgSgMAAgVQAAgUARgMQAPgNAZAAQATAAANAHQAOAGAHAMQAHAMABAPIgQAAQABgRgMgMQgMgKgWAAQgTAAgLAJQgMAIAAAPQAAANALAJQAIAHAYAHQAaAIAKAFQANAHAFAKQAHAIAAAOQgBAVgQAMQgRAMgbAAQgQABgQgHg");
 	this.shape_21.setTransform(142.25,71); 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////// FERAS
-	this.shape_22 = new cjs.Shape();
+	this.shape_22 = new cjs.Shape(); 
 	this.shape_22.graphics.f("#FFFFFF").s().p("AhBCBIAAjKICCAAIAAAdIhfAAIAAA3IBSAAIAAAcIhSAAIAAA+IBgAAIAAAcgAgQhWIAagqIAnAAIgnAqg");
 	this.shape_22.setTransform(457.225,32.5); 
 
@@ -10767,6 +10767,7 @@ an.handleSoundStreamOnTick = function(event) {
 })(createjs = createjs||{}, AdobeAn = AdobeAn||{});
 
 var createjs, AdobeAn;
+
 
 
 
