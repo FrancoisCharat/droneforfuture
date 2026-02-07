@@ -329,7 +329,7 @@ if (reversed == null) { reversed = false; }
 	this.shape_20.graphics.f("#FFCE00").s().p("AgwBEQgTgXAAglIAAgRQAAgXAJgSQAHgSAQgLQAQgKATAAQAUAAAPAKQAQAKAIASQAIAPABAZIAAAUQAAAYgIASQgJASgPAKQgQAKgUAAQgdABgTgWgAgmg6QgOARAAAhIAAARQAAAgAOASQAPARAXABQAagBAOgRQAOgTgBgfIAAgSQAAgegOgTQgOgSgZAAQgXAAgPASg");
 	this.shape_20.setTransform(157.75,71);
 
-	this.shape_21 = new cjs.Shape();  
+	this.shape_21 = new cjs.Shape();    
 	this.shape_21.graphics.f("#FFFFFF").s().p("AgeBTQgOgGgJgMQgJgMAAgQIAQAAQAAASANALQANALAWAAQAVAAANgJQALgJAAgPQAAgOgKgJQgLgJgagHQgbgGgLgKQgSgMAAgVQAAgUARgMQAPgNAZAAQATAAANAHQAOAGAHAMQAHAMABAPIgQAAQABgRgMgMQgMgKgWAAQgTAAgLAJQgMAIAAAPQAAANALAJQAIAHAYAHQAaAIAKAFQANAHAFAKQAHAIAAAOQgBAVgQAMQgRAMgbAAQgQABgQgHg");
 	this.shape_21.setTransform(142.25,71); 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////// FERAS
@@ -10768,6 +10768,7 @@ an.handleSoundStreamOnTick = function(event) {
 })(createjs = createjs||{}, AdobeAn = AdobeAn||{});
 
 var createjs, AdobeAn;
+
 
 
 
