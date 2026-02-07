@@ -232,7 +232,7 @@ if (reversed == null) { reversed = false; }
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(-72,-46.8,144,93.69999999999999);
 
-///////////////////////////////////////////////////////////////// FERAS
+///////////////////////////////////////////////////////////////// FERAS  
 	/*
 (lib.Sequence_1_OBJECTS = function(mode,startPosition,loop,reversed) {
 if (loop == null) { loop = true; }
@@ -10773,6 +10773,7 @@ an.handleSoundStreamOnTick = function(event) {
 })(createjs = createjs||{}, AdobeAn = AdobeAn||{});
 
 var createjs, AdobeAn;
+
 
 
 
