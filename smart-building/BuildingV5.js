@@ -8902,7 +8902,7 @@ if (reversed == null) { reversed = false; }
 	this.shape.setTransform(184.3054,700.5434,0.1871,0.1871);
 ///////////////////////////////////////////////////////////////////////////////FERAS 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#E71B1B").s().p("AgTAdQgJgJAAgLIAAgRQAAgMAJgIQAIgJALAAQAMAAAIAJQAJAIAAAMIAAARQAAALgJAJQgIAJgMAAQgLAAgIgJgAgRgaQgIAIAAAKIAAAPQAAALAIAIQAHAHAKAAQALAAAHgHQAIgIAAgLIAAgPQAAgKgIgIQgHgHgLAAQgKAAgHAHg");
+	this.shape_1.graphics.f("#FFFFFF").s().p("AgTAdQgJgJAAgLIAAgRQAAgMAJgIQAIgJALAAQAMAAAIAJQAJAIAAAMIAAARQAAALgJAJQgIAJgMAAQgLAAgIgJgAgRgaQgIAIAAAKIAAAPQAAALAIAIQAHAHAKAAQALAAAHgHQAIgIAAgLIAAgPQAAgKgIgIQgHgHgLAAQgKAAgHAHg");
 	this.shape_1.setTransform(184.3238,695.6097,0.7143,0.7143);
 
 	this.shape_2 = new cjs.Shape();
@@ -10773,6 +10773,7 @@ an.handleSoundStreamOnTick = function(event) {
 })(createjs = createjs||{}, AdobeAn = AdobeAn||{});
 
 var createjs, AdobeAn;
+
 
 
 
