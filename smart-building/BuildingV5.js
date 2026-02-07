@@ -250,7 +250,7 @@ if (reversed == null) { reversed = false; }
 	this.shape.setTransform(299.25,53.95);
 
 	this.shape_1 = new cjs.Shape();
-	this.shape_1.graphics.f("#FFFFFF").s().p("AgeBTQgPgGgIgMQgJgNABgPIAOAAQAAASAOALQAOALAWAAQAUAAANgJQAMgJAAgPQAAgOgKgJQgLgIgagIQgbgGgMgKQgSgMAAgVQAAgUAQgMQAQgNAaAAQARAAAOAHQAOAHAHALQAIAMAAAPIgPAAQgBgRgLgMQgNgKgUAAQgUAAgLAJQgMAIAAAPQAAANAKAJQALAHAXAHQAaAIAKAFQAMAHAFAKQAGAIABAOQAAAVgRAMQgRAMgaAAQgRABgQgHg");
+	this.shape_1.graphics.f("#FFCE00").s().p("AgeBTQgPgGgIgMQgJgNABgPIAOAAQAAASAOALQAOALAWAAQAUAAANgJQAMgJAAgPQAAgOgKgJQgLgIgagIQgbgGgMgKQgSgMAAgVQAAgUAQgMQAQgNAaAAQARAAAOAHQAOAHAHALQAIAMAAAPIgPAAQgBgRgLgMQgNgKgUAAQgUAAgLAJQgMAIAAAPQAAANAKAJQALAHAXAHQAaAIAKAFQAMAHAFAKQAGAIABAOQAAAVgRAMQgRAMgaAAQgRABgQgHg");
 	this.shape_1.setTransform(463.25,71);
 
 	this.shape_2 = new cjs.Shape();
@@ -10767,6 +10767,7 @@ an.handleSoundStreamOnTick = function(event) {
 })(createjs = createjs||{}, AdobeAn = AdobeAn||{});
 
 var createjs, AdobeAn;
+
 
 
 
