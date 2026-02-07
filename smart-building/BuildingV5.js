@@ -8944,7 +8944,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_14 = new lib._01climatistaion();
 	this.instance_14.setTransform(150,168.65);
 	new cjs.ButtonHelper(this.instance_14, 0, 1, 1);
-//////////////////////////////////////////////////////////////////FERAS
+//////////////////////////////////////////////////////////////////FERAS 
 	this.shape_3 = new cjs.Shape();
 	this.shape_3.graphics.f("#FFFFFF").s().p("AAJBaIggg0IgkAbQgDADgEgCQgEgCAAgEIAAiRQAAgEAEgCQADgCAEACIB+BTQAEADgBADQAAAEgFABIgpAMIAfAwIABAGQgBACgDACIghATIgEABQgDAAgDgDg");
 	this.shape_3.setTransform(519.21,68.3875);
@@ -10773,6 +10773,7 @@ an.handleSoundStreamOnTick = function(event) {
 })(createjs = createjs||{}, AdobeAn = AdobeAn||{});
 
 var createjs, AdobeAn;
+
 
 
 
