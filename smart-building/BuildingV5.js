@@ -246,7 +246,7 @@ if (reversed == null) { reversed = false; }
 
 	// OBJECTS /////////////////////////////////////////////////////:::Feras
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f().s("#FFFFFF").p("A55AAMAzzAAA");
+	this.shape.graphics.f().s("#FFCE00").p("A55AAMAzzAAA");
 	this.shape.setTransform(299.25,53.95);
 
 	this.shape_1 = new cjs.Shape();
@@ -10767,6 +10767,7 @@ an.handleSoundStreamOnTick = function(event) {
 })(createjs = createjs||{}, AdobeAn = AdobeAn||{});
 
 var createjs, AdobeAn;
+
 
 
 
