@@ -1,0 +1,29 @@
+النسخة العربية المصححة — BuildingV5
+===================================
+
+للمعاينة:
+افتح الملف BuildingV5_AR.html في المتصفح. ويمكن أيضاً استخدام Preview.html، فهو نسخة مطابقة.
+
+للاستخدام في المشروع الحالي:
+استبدل الملف الأصلي BuildingV5(1).js بالملف الموجود داخل هذه الحزمة والذي يحمل الاسم نفسه.
+لا حاجة لإضافة ملف الشعار إلى كود الصفحة، لأن شعار DFF مضمّن داخل ملف JavaScript.
+
+تتضمن النسخة:
+- شعار DFF في أعلى اليسار.
+- العنوان «التوأمة الرقمية» في أعلى المنتصف.
+- تغطية النص الفرنسي الأصلي.
+- العبارة العربية «مرّر المؤشر فوق النقاط التفاعلية لاكتشاف التفاصيل» في أعلى اليمين.
+- ترجمة التسميات التفاعلية إلى العربية.
+- عرض متجاوب يملأ أكبر مساحة ممكنة من شاشة الحاسوب أو الهاتف مع الحفاظ على أبعاد التصميم.
+- دعم اللمس على الهاتف، مع فتح نوافذ الشرح بسرعة أكبر.
+
+Corrected Arabic version — BuildingV5
+=====================================
+
+Preview:
+Open BuildingV5_AR.html in a web browser. Preview.html is an identical copy.
+
+Existing project:
+Replace the original BuildingV5(1).js with the file of the same name from this package.
+The DFF logo is embedded inside the JavaScript, so no additional image reference is required.
+The preview automatically fits laptop and mobile screens, supports touch, and opens the explanation panels faster.

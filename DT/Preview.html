@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>التوأمة الرقمية</title>
+  <style>
+    html, body {
+      margin: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: #0b2947;
+    }
+    body {
+      overscroll-behavior: none;
+      touch-action: manipulation;
+      background:
+        radial-gradient(circle at 20% 25%, rgba(16, 143, 210, 0.20), transparent 34%),
+        radial-gradient(circle at 80% 72%, rgba(9, 75, 132, 0.28), transparent 38%),
+        #0b2947;
+    }
+    #animation_container {
+      position: fixed;
+      inset: 0;
+      width: 100vw;
+      height: 100vh;
+      height: 100dvh;
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+    }
+    canvas {
+      display: block;
+      width: 620px;
+      height: 1136px;
+      max-width: none;
+      max-height: none;
+      background: #000;
+      box-shadow: 0 0 45px rgba(0, 0, 0, 0.38);
+      -webkit-tap-highlight-color: transparent;
+    }
+    @media (max-width: 700px) {
+      canvas { box-shadow: none; }
+    }
+  </style>
+  <script src="createjs.min.js"></script>
+  <script src="BuildingV5(1).js"></script>
+</head>
+<body>
+  <main id="animation_container">
+    <canvas id="canvas" width="620" height="1136"></canvas>
+  </main>
+  <script>
+    var canvas, stage, exportRoot, designWidth, designHeight;
+
+    function fitAnimationToViewport() {
+      if (!canvas || !designWidth || !designHeight) { return; }
+      var viewport = window.visualViewport;
+      var availableWidth = viewport ? viewport.width : window.innerWidth;
+      var availableHeight = viewport ? viewport.height : window.innerHeight;
+      var scale = Math.min(availableWidth / designWidth, availableHeight / designHeight);
+
+      canvas.style.width = Math.max(1, Math.floor(designWidth * scale)) + "px";
+      canvas.style.height = Math.max(1, Math.floor(designHeight * scale)) + "px";
+    }
+
+    function startAnimation() {
+      var compositionId = "4BEDCE2B9B76FC49B63040622B96AECA";
+      var composition = AdobeAn.getComposition(compositionId);
+      var lib = composition.getLibrary();
+
+      canvas = document.getElementById("canvas");
+      designWidth = lib.properties.width;
+      designHeight = lib.properties.height;
+
+      // High-density rendering keeps the animation sharp on laptops and phones.
+      var pixelRatio = Math.min(window.devicePixelRatio || 1, 2);
+      canvas.width = Math.round(designWidth * pixelRatio);
+      canvas.height = Math.round(designHeight * pixelRatio);
+
+      exportRoot = new lib.BuildingV5();
+      stage = new lib.Stage(canvas);
+      stage.scaleX = pixelRatio;
+      stage.scaleY = pixelRatio;
+      stage.enableMouseOver(60);
+      if (createjs.Touch && createjs.Touch.isSupported()) {
+        createjs.Touch.enable(stage, true, false);
+      }
+      stage.addChild(exportRoot);
+      stage.update();
+
+      fitAnimationToViewport();
+      window.addEventListener("resize", fitAnimationToViewport, {passive: true});
+      window.addEventListener("orientationchange", fitAnimationToViewport, {passive: true});
+      if (window.visualViewport) {
+        window.visualViewport.addEventListener("resize", fitAnimationToViewport, {passive: true});
+      }
+
+      createjs.Ticker.timingMode = createjs.Ticker.RAF_SYNCHED;
+      createjs.Ticker.framerate = lib.properties.fps;
+      createjs.Ticker.addEventListener("tick", stage);
+      AdobeAn.compositionLoaded(compositionId);
+    }
+
+    window.addEventListener("load", startAnimation);
+  </script>
+</body>
+</html>
