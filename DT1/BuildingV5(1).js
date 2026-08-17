@@ -10236,6 +10236,7 @@ if (reversed == null) { reversed = false; }
 	this.logo.setTransform(16,17,0.45,0.45);
 
 	this.title = new cjs.Text("التوأمة الرقمية \n تصميم : د. فراس الشمعة", "bold 26px 'Arial'", "#FFFFFF");
+	
 	this.title.textAlign = "center";
 	this.title.lineHeight = 30;
 	this.title.lineWidth = 260;
