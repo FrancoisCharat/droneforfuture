@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>التوأمة الرقمية</title>
+  <style>
+    html, body {
+      margin: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: #0b2947;
+    }
+    body {
+      overscroll-behavior: none;
+      touch-action: manipulation;
+      background:
+        radial-gradient(circle at 20% 25%, rgba(16, 143, 210, 0.20), transparent 34%),
+        radial-gradient(circle at 80% 72%, rgba(9, 75, 132, 0.28), transparent 38%),
+        #0b2947;
+    }
+    #animation_container {
+      position: fixed;
+      inset: 0;
+      width: 100vw;
+      height: 100vh;
+      height: 100dvh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-sizing: border-box;
+      overflow: hidden;
+    }
+    canvas {
+      display: block;
+      max-width: none;
+      max-height: none;
+      background: #000;
+      -webkit-tap-highlight-color: transparent;
+    }
+    #animation_container.laptop-layout canvas {
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 14px;
+      box-shadow: 0 18px 55px rgba(0, 0, 0, 0.38);
+    }
+  </style>
+  <script src="createjs.min.js"></script>
+  <script src="BuildingV5(1).js"></script>
+</head>
+<body>
+  <main id="animation_container">
+    <canvas id="canvas" width="620" height="1136"></canvas>
+  </main>
+  <script>
+    var canvas, stage, exportRoot, designWidth, designHeight, animationContainer;
+
+    function fitAnimationToViewport() {
+      if (!canvas || !designWidth || !designHeight) { return; }
+      var viewport = window.visualViewport;
+      var availableWidth = viewport ? viewport.width : window.innerWidth;
+      var availableHeight = viewport ? viewport.height : window.innerHeight;
+      var laptopLayout = availableWidth >= 768 && availableHeight >= 500 && availableWidth > availableHeight;
+      var cssWidth;
+      var cssHeight;
+
+      if (laptopLayout) {
+        // Keep the original 620 x 1136 proportions on laptops. A flexible
+        // margin prevents the animation from touching the browser edges.
+        var outerMargin = Math.max(12, Math.min(20, Math.round(Math.min(availableWidth, availableHeight) * 0.02)));
+        var usableWidth = Math.max(1, availableWidth - (outerMargin * 2));
+        var usableHeight = Math.max(1, availableHeight - (outerMargin * 2));
+        var scale = Math.min(usableWidth / designWidth, usableHeight / designHeight);
+        var proportionalWidth = Math.max(1, Math.floor(designWidth * scale));
+        // The source artwork is very narrow and portrait-oriented. A moderate
+        // horizontal boost makes it easier to read on laptops while retaining
+        // generous side margins and avoiding an edge-to-edge stretch.
+        cssWidth = Math.min(usableWidth, Math.floor(proportionalWidth * 1.45));
+        cssHeight = Math.max(1, Math.floor(designHeight * scale));
+      } else {
+        // Preserve the established edge-to-edge mobile presentation.
+        cssWidth = Math.max(1, Math.ceil(availableWidth));
+        cssHeight = Math.max(1, Math.ceil(availableHeight));
+      }
+
+      animationContainer.classList.toggle("laptop-layout", laptopLayout);
+      canvas.style.width = cssWidth + "px";
+      canvas.style.height = cssHeight + "px";
+    }
+
+    function startAnimation() {
+      var compositionId = "4BEDCE2B9B76FC49B63040622B96AECA";
+      var composition = AdobeAn.getComposition(compositionId);
+      var lib = composition.getLibrary();
+
+      canvas = document.getElementById("canvas");
+      animationContainer = document.getElementById("animation_container");
+      designWidth = lib.properties.width;
+      designHeight = lib.properties.height;
+
+      // High-density rendering keeps the animation sharp on laptops and phones.
+      var pixelRatio = Math.min(window.devicePixelRatio || 1, 2);
+      canvas.width = Math.round(designWidth * pixelRatio);
+      canvas.height = Math.round(designHeight * pixelRatio);
+
+      exportRoot = new lib.BuildingV5();
+      stage = new lib.Stage(canvas);
+      stage.scaleX = pixelRatio;
+      stage.scaleY = pixelRatio;
+      stage.addChild(exportRoot);
+      stage.update();
+
+      fitAnimationToViewport();
+      window.addEventListener("resize", fitAnimationToViewport, {passive: true});
+      window.addEventListener("orientationchange", fitAnimationToViewport, {passive: true});
+      if (window.visualViewport) {
+        window.visualViewport.addEventListener("resize", fitAnimationToViewport, {passive: true});
+      }
+
+      createjs.Ticker.timingMode = createjs.Ticker.RAF_SYNCHED;
+      createjs.Ticker.framerate = lib.properties.fps;
+      createjs.Ticker.addEventListener("tick", stage);
+      AdobeAn.compositionLoaded(compositionId);
+    }
+
+    window.addEventListener("load", startAnimation);
+  </script>
+</body>
+</html>
