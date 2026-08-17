@@ -2,7 +2,7 @@
 
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
-lib.ssMetadata = [];
+lib.ssMetadata = []; 
        
   
 (lib.AnMovieClip = function(){
