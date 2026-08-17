@@ -10245,7 +10245,7 @@ this.title.lineHeight = 34;
 this.title.lineWidth = 280;
 this.title.parent = this;
 this.title.setTransform(315, 12);
-
+ 
 this.designer = new cjs.Text(
     "تصميم: د. فراس الشمعة",
     "bold 24px 'Arial'",
