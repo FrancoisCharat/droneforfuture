@@ -62,35 +62,30 @@ document.querySelectorAll('[data-comparison]').forEach(comparison => {
   }
 });
 
-// Each tab group maintains its own selection and keyboard focus.
-document.querySelectorAll('[data-tab-group]').forEach(group => {
-  const tabs = [...group.querySelectorAll('[role="tab"]')];
-  function selectTab(tab, moveFocus = false) {
-    tabs.forEach(item => {
-      const selected = item === tab;
-      item.setAttribute('aria-selected', String(selected));
-      item.tabIndex = selected ? 0 : -1;
-      document.getElementById(item.getAttribute('aria-controls')).hidden = !selected;
-    });
-    if (moveFocus) tab.focus();
-  }
-  tabs.forEach((tab, index) => {
-    tab.addEventListener('click', () => selectTab(tab));
-    tab.addEventListener('keydown', event => {
-      let next;
-      if (event.key === 'ArrowRight' || event.key === 'ArrowDown') next = (index + 1) % tabs.length;
-      else if (event.key === 'ArrowLeft' || event.key === 'ArrowUp') next = (index - 1 + tabs.length) % tabs.length;
-      else if (event.key === 'Home') next = 0;
-      else if (event.key === 'End') next = tabs.length - 1;
-      if (next !== undefined) {
-        event.preventDefault();
-        selectTab(tabs[next], true);
-      }
-    });
+// WAI-ARIA tab interaction: click, arrows, Home and End.
+const pipeline = document.querySelector('[data-pipeline]');
+const tabs = [...pipeline.querySelectorAll('[role="tab"]')];
+function selectTab(tab, moveFocus = false) {
+  tabs.forEach(item => {
+    const selected = item === tab;
+    item.setAttribute('aria-selected', String(selected));
+    item.tabIndex = selected ? 0 : -1;
+    document.getElementById(item.getAttribute('aria-controls')).hidden = !selected;
   });
-  group.querySelectorAll('[data-select-tab]').forEach(button => {
-    const target = tabs.find(tab => tab.id === button.dataset.selectTab);
-    if (target) button.addEventListener('click', () => selectTab(target, true));
+  if (moveFocus) tab.focus();
+}
+tabs.forEach((tab, index) => {
+  tab.addEventListener('click', () => selectTab(tab));
+  tab.addEventListener('keydown', event => {
+    let next;
+    if (event.key === 'ArrowRight' || event.key === 'ArrowDown') next = (index + 1) % tabs.length;
+    else if (event.key === 'ArrowLeft' || event.key === 'ArrowUp') next = (index - 1 + tabs.length) % tabs.length;
+    else if (event.key === 'Home') next = 0;
+    else if (event.key === 'End') next = tabs.length - 1;
+    if (next !== undefined) {
+      event.preventDefault();
+      selectTab(tabs[next], true);
+    }
   });
 });
 

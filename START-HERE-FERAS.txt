@@ -1,0 +1,39 @@
+DFF CONSULTING — F.E.R.A.S. v6
+Live sensor streaming and physical-asset synchronisation
+Updated 9 September 2026
+
+CONTACT UPDATE
+All contact links and displayed email addresses now use
+contact@droneforfuture.com. The website design, F.E.R.A.S. approach
+and fire use case are unchanged.
+
+F.E.R.A.S. USE CASE
+The five F.E.R.A.S. capabilities now share a building-fire use case.
+S — Synchronise physical & digital combines real-time sensor streams
+with verified updates to asset condition, location and geometry.
+Mobile sensors, including thermal drones where appropriate, can
+supplement fixed coverage. Observations are located and timestamped;
+missing or stale data and the last known state remain visible.
+
+PREVIEW ON YOUR COMPUTER
+1. Extract this ZIP into a NEW folder named DFF-Consulting-FERAS-v6.
+2. Open website/index.html in your browser.
+3. Select Approach, then S — Synchronise physical & digital.
+
+ONLINE PREVIEW
+https://dff-consulting.francois-charat.chatgpt.site
+
+UPLOAD TO WWW.DRONEFORFUTURE.COM
+1. Back up your existing homepage and assets folder.
+2. Open your domain's web root using your hosting file manager or FTP.
+3. Upload website/index.html and the complete website/assets folder
+   into that web root, replacing the corresponding files together.
+   The homepage should be at your web root/index.html.
+4. Refresh your website. If it still shows an older page, clear the
+   host/CDN cache if applicable and force-refresh the browser with
+   Ctrl+Shift+R (Windows/Linux) or Command+Shift+R (macOS).
+
+Preserve unrelated folders such as FC/ and DT1/.
+See README.md for full instructions and ASSET-NOTES.md for image notes.
+This is an illustrative use case on the corporate website; the page
+itself does not connect to live sensors.
